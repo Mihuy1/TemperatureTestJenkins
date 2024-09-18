@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f749303c-a044-4837-9d11-fd94b5c104be" name="Changes" comment="Add Jenkinsfile">
+    <list default="true" id="f749303c-a044-4837-9d11-fd94b5c104be" name="Changes" comment="Update Jenkinsfile">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
     </list>
@@ -119,7 +120,7 @@
       <workItem from="1725953717980" duration="1200000" />
       <workItem from="1725955234538" duration="285000" />
       <workItem from="1725956057775" duration="29000" />
-      <workItem from="1726650471248" duration="1422000" />
+      <workItem from="1726650471248" duration="1642000" />
     </task>
     <task id="LOCAL-00001" summary="Add another test to TemperatureConverterTest">
       <option name="closed" value="true" />
@@ -137,7 +138,23 @@
       <option name="project" value="LOCAL" />
       <updated>1726651675810</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Update Jenkinsfile">
+      <option name="closed" value="true" />
+      <created>1726651905141</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1726651905141</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Update Jenkinsfile">
+      <option name="closed" value="true" />
+      <created>1726651985536</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1726651985536</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,6 +163,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add another test to TemperatureConverterTest" />
     <MESSAGE value="Add Jenkinsfile" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Jenkinsfile" />
+    <MESSAGE value="Update Jenkinsfile" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update Jenkinsfile" />
   </component>
 </project>
