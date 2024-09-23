@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f749303c-a044-4837-9d11-fd94b5c104be" name="Changes" comment="Update Jenkinsfile">
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TemperatureConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TemperatureConverter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TemperatureConverterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TemperatureConverterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +20,7 @@
       <list>
         <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Dockerfile" />
       </list>
     </option>
   </component>
@@ -121,7 +123,7 @@
       <workItem from="1725955234538" duration="285000" />
       <workItem from="1725956057775" duration="29000" />
       <workItem from="1726650471248" duration="1642000" />
-      <workItem from="1727092873880" duration="126000" />
+      <workItem from="1727092873880" duration="645000" />
     </task>
     <task id="LOCAL-00001" summary="Add another test to TemperatureConverterTest">
       <option name="closed" value="true" />
@@ -160,6 +162,17 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add another test to TemperatureConverterTest" />
