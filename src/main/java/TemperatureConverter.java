@@ -29,6 +29,10 @@ public class TemperatureConverter {
         return Math.round((kel-273.15)* (9 / 5) + 32);
     }
 
+    public static void main(String[] args) {
+        System.out.println("Docker donee");
+    }
+
     /**
      * Checks if the given Celsius temperature is extreme.
      *
