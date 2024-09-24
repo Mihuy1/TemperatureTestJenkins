@@ -21,8 +21,8 @@ public class TemperatureConverter {
         return (celsius * 9 / 5) + 32;
     }
 
-    public static float kelvinToCel(float kelvin) {
-        return (float) (kelvin - 273.15);
+    public static double kelvinToCel(double kelvin) {
+        return (kelvin - 273.15);
     }
 
     public static  double kelvinToFah(double kel) {
@@ -30,8 +30,7 @@ public class TemperatureConverter {
     }
 
     public static void main(String[] args) {
-        System.out.println(kelvinToCel(273.15F));
-        System.out.println(kelvinToFah(273.15F));
+        System.out.println("Kelvin to Fahrenheit: " + kelvinToFah(273.15F));
     }
 
     /**
