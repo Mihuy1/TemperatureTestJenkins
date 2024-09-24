@@ -11,8 +11,8 @@ pipeline {
     }
 
     tools {
-            maven 'Maven'
-        }
+        maven 'Maven'
+    }
 
     stages {
         stage('Checkout') {
