@@ -9,6 +9,11 @@ pipeline {
         // Define Docker image tag
         DOCKER_IMAGE_TAG = 'latest'
     }
+
+    tools {
+            maven 'Maven'
+        }
+
     stages {
         stage('Checkout') {
             steps {
