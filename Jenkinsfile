@@ -5,7 +5,7 @@ pipeline {
         // Define Docker Hub credentials ID
         DOCKERHUB_CREDENTIALS_ID = 'yahhas'
         // Define Docker Hub repository name
-        DOCKERHUB_REPO = 'yahhas/fartocelkelvin'
+        DOCKERHUB_REPO = 'yahhas/tempconverter'
         // Define Docker image tag
         DOCKER_IMAGE_TAG = 'latest'
     }
@@ -13,7 +13,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Checkout code from Git repository
-                git 'https://github.com/ADirin/FarToCel_Fall2024.git'
+                git 'https://github.com/Mihuy1/TemperatureTestJenkins'
             }
         }
         stage('Build Docker Image') {
