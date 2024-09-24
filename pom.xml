@@ -39,6 +39,20 @@
                 </configuration>
             </plugin>
 
+            <!-- Maven JAR Plugin to set Main-Class in manifest -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jar-plugin</artifactId>
+                <version>3.2.0</version> <!-- Adjust version if needed -->
+                <configuration>
+                    <archive>
+                        <manifest>
+                            <mainClass>TemperatureConverter</mainClass> <!-- Replace with your main class -->
+                        </manifest>
+                    </archive>
+                </configuration>
+            </plugin>
+
             <!-- Jacoco Plugin for Code Coverage -->
             <plugin>
                 <groupId>org.jacoco</groupId>
