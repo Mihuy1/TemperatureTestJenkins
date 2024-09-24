@@ -30,7 +30,8 @@ public class TemperatureConverter {
     }
 
     public static void main(String[] args) {
-        System.out.println("Docker donee");
+        System.out.println(kelvinToCel(273.15F));
+        System.out.println(kelvinToFah(273.15F));
     }
 
     /**

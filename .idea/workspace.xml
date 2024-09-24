@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f749303c-a044-4837-9d11-fd94b5c104be" name="Changes" comment="Update Jenkinsfile">
-      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+    <list default="true" id="f749303c-a044-4837-9d11-fd94b5c104be" name="Changes" comment="Add main method">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +36,10 @@
     &quot;accountId&quot;: &quot;27596f7c-fbb0-484e-8a7f-439583f1ff4f&quot;
   }
 }</component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -52,6 +53,7 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Docker.Dockerfile.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.All in TemperatureTest.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.LibraryTest.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.TemperatureConverterTest.executor&quot;: &quot;Run&quot;,
@@ -80,7 +82,7 @@
       <recent name="org.otp1" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Docker.Dockerfile">
     <configuration name="All in TemperatureTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TemperatureTest" />
       <option name="PACKAGE_NAME" value="" />
@@ -89,8 +91,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="sourceFilePath" value="Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Docker.Dockerfile" />
         <item itemvalue="JUnit.All in TemperatureTest" />
       </list>
     </recent_temporary>
@@ -123,7 +134,11 @@
       <workItem from="1725955234538" duration="285000" />
       <workItem from="1725956057775" duration="29000" />
       <workItem from="1726650471248" duration="1642000" />
-      <workItem from="1727092873880" duration="645000" />
+      <workItem from="1727092873880" duration="755000" />
+      <workItem from="1727158791990" duration="3816000" />
+      <workItem from="1727163414726" duration="2784000" />
+      <workItem from="1727169066342" duration="6000" />
+      <workItem from="1727180057721" duration="66000" />
     </task>
     <task id="LOCAL-00001" summary="Add another test to TemperatureConverterTest">
       <option name="closed" value="true" />
@@ -157,7 +172,79 @@
       <option name="project" value="LOCAL" />
       <updated>1726651985536</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Update Jenkinsfile and add Dockerfile">
+      <option name="closed" value="true" />
+      <created>1727093560804</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1727093560804</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Update Jenkinsfile">
+      <option name="closed" value="true" />
+      <created>1727159046564</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1727159046564</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Update pom.xml">
+      <option name="closed" value="true" />
+      <created>1727159802045</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1727159802045</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Update Jenkinsfile">
+      <option name="closed" value="true" />
+      <created>1727159844993</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1727159844993</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Update Jenkinsfile">
+      <option name="closed" value="true" />
+      <created>1727159974394</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1727159974394</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Update Jenkinsfile">
+      <option name="closed" value="true" />
+      <created>1727160200663</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1727160200663</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Add jenkinsfile fix">
+      <option name="closed" value="true" />
+      <created>1727160813467</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1727160813467</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Add jenkinsfile fix">
+      <option name="closed" value="true" />
+      <created>1727165207745</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1727165207745</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Add main method">
+      <option name="closed" value="true" />
+      <created>1727165564418</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1727165564418</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,7 +264,11 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add another test to TemperatureConverterTest" />
     <MESSAGE value="Add Jenkinsfile" />
+    <MESSAGE value="Update Jenkinsfile and add Dockerfile" />
+    <MESSAGE value="Update pom.xml" />
     <MESSAGE value="Update Jenkinsfile" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update Jenkinsfile" />
+    <MESSAGE value="Add jenkinsfile fix" />
+    <MESSAGE value="Add main method" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add main method" />
   </component>
 </project>
