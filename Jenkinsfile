@@ -18,7 +18,8 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Checkout code from Git repository
-                git 'https://github.com/Mihuy1/TemperatureTestJenkins'
+                git branch: 'main', url: 'https://github.com/Mihuy1/TemperatureTestJenkins'
+
             }
         }
         stage('Build Docker Image') {
